@@ -1,4 +1,4 @@
-public class PRIMITIV2 {
+public class Main {
     public static void main(String[] args) {
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
@@ -12,7 +12,7 @@ public class PRIMITIV2 {
         // сумма пополнения порог, и для этих двух разных
         // сценариев рассчитываете сумму бонуса и выводите
         // на экран.
-        if (balance >= 1000) {
+        if (balance > 1000) {
             bonus = balance / percent;
         } else {
             bonus = 0;
@@ -24,4 +24,3 @@ public class PRIMITIV2 {
 
     }
 }
-
